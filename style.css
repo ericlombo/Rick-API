@@ -8,6 +8,7 @@ body, h1, h2, h3, p, ul, li {
   body {
     font-family: Arial, sans-serif;
     width: 100vw;
+    overflow-x: hidden;
   }
   
   header {
@@ -69,7 +70,8 @@ body, h1, h2, h3, p, ul, li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: black;
+    background:black;
+    color: aliceblue;
 }
 
   .characters h2 {
@@ -99,7 +101,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 .char-card:hover {
-    background-color: yellow;
+    background-color: rgb(26, 101, 88);
 }
 
 .cardimg {
@@ -112,4 +114,42 @@ body, h1, h2, h3, p, ul, li {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color:darkslategray;
+
+}
+.footer h4{
+    align-items: center;
+    justify-content: center;
+}
+.fa{
+    padding: 12px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 18px;  
+    width: 30px;  
+}
+.fa-FACEBOOK{
+    background-color:#3B5998;
+    color: white;
+}
+.fa-TWITTER{
+    background: #55ACEE;
+    color: white;
+}
+.fa-NETFLIX{
+    background: rgb(179, 16, 16);
+    color:white;
+}
+fa:hover{
+    opacity: 0.9;
 }

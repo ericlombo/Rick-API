@@ -15,6 +15,7 @@ async function fetchData() {
             ${character.location.name}
             ${character.status}
             ${character.species}
+            <a href="${character.url}" target="_blank">view profile</a>
         `
 
         all.appendChild(container)
